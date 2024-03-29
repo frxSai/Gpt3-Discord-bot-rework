@@ -1,47 +1,4 @@
 
-![Docker](https://github.com/Kav-K/GPT3Discord/actions/workflows/build-and-publish-docker.yml/badge.svg)  
-![PyPi](https://github.com/Kav-K/GPT3Discord/actions/workflows/pypi_upload.yml/badge.svg)  
-![Build](https://github.com/Kav-K/GPT3Discord/actions/workflows/build.yml/badge.svg)  
-  
-[![PyPi version](https://badgen.net/pypi/v/gpt3discord/)](https://pypi.org/project/gpt3discord)  
-[![Latest release](https://badgen.net/github/release/Kav-K/GPT3Discord)](https://github.com/Kav-K/GPT3Discord/releases)  
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Kav-K/GPT3Discord/graphs/commit-activity)  
-[![GitHub license](https://img.shields.io/github/license/Kav-K/GPT3Discord)](https://github.com/Kav-K/GPT3Discord/blob/master/LICENSE)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
-  
-# Overview
-A robust, all-in-one GPT3 interface for Discord. Chat just like ChatGPT right inside Discord! Generate beautiful AI art using DALL-E 2! Automatically moderate your server using AI! Upload documents, videos, and files to get AI-assisted insights! A thorough integration with permanent conversation memory powered by [Pinecone](https://www.pinecone.io/), automatic request retry, fault tolerance and reliability for servers of any scale, and much more.  
-  
-SUPPORT SERVER FOR BOT SETUP: https://discord.gg/WvAHXDMS7Q (You can try out the bot here also in a limited fashion)  
-
-# Table of Contents  
-
-- [Screenshots](#Screenshots)
-- [Features](#Features)
-- [Commands](#Commands)
-- [Installation](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/INSTALLATION.md)  
--- [DigitalOcean Droplet Guide](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/DROPLET-GUIDE.md) 
--- [OpenAI Token Guide](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/OPENAI-GUIDE.md)
-- [Permanent Memory](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/PERMANENT-MEMORY.md)    
-- [AI-Search](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/AI-SEARCH.md)  
-- [Custom Indexes](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/CUSTOM-INDEXES.md)  
-- [AI-Moderation](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/AI-MODERATION.md)  
-- [Translations](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/TRANSLATIONS.md)  
-- [User-Input API Keys](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/USER-INPUT-KEYS.md)  
-- [Permissions](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/PERMISSIONS.md)  
-- [Language Detection](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/LANGUAGE-DETECTION.md)
-- [Other Minor Features](https://github.com/Kav-K/GPT3Discord/blob/main/detailed_guides/OTHER-MINOR-FEATURES.md)  
-
-
-# Screenshots  
-  
-<p align="center">  
-<img src="https://i.imgur.com/KeLpDgj.png"/>  
-<img  src="https://i.imgur.com/jLp1T0h.png"/>  
-<img src="https://i.imgur.com/cY4895V.png"/>  
-<img src="https://i.imgur.com/9leCixJ.png"/>  
-  
-</p>  
   
 # Recent Notable Updates  
 

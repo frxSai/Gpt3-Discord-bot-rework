@@ -1,55 +1,5 @@
 
   
-# Recent Notable Updates  
-
-- **ChatGPT API Integration** - The ChatGPT API has been released and our bot is now fully integrated with it! Change to model to one of the ChatGPT turbo models with `/system settings`, or include the model as a param in your `/gpt converse`, `/gpt ask`, etc requests! The two currently available ChatGPT models are `gpt-3.5-turbo` and `gpt-3.5-turbo-0301`. This change is very experimental, so we're looking for your feedback and input on what you think of the new model's performance, especially for search and indexing functionality. 
-  
-- **AI-Assisted Google Search** - Use GPT3 to browse the internet, you can search the internet for a query and GPT3 will look at the top websites for you automatically and formulate an answer to your query! You can also ask follow-up questions, this is kinda like BingGPT, but much better lol!  
-<p align="center"/>  
-<img src="https://i.imgur.com/YxkS0S5.png"/>  
-</p>  
-  
-- **CUSTOM INDEXES** - You can now upload files to your discord server and use them as a source of knowledge when asking GPT3 questions. You can also use webpage links as context, images, full documents, csvs, powerpoints, audio files, and even **youtube videos**! Read more in the 'Custom Indexes' section below. Here's an example below with a youtube video:
-  
-<p align="center"/>  
-<img src="https://i.imgur.com/H98UXad.png"/>  
-</p>  
-
-# Features  
-- **Directly prompt GPT3 with `/gpt ask <prompt>`**  
-  
-- **Have long term, permanent conversations with the bot, just like chatgpt, with `/gpt converse`** - Conversations happen in threads that get automatically cleaned up!  
-  
-- **Custom Indexes** - Use your own files, pdfs, txt files, websites, discord channel content as context when asking GPT3 questions!  
-  
-- **AI-Assisted Google Search** - Speaks for itself!  
-  
-- **DALL-E Image Generation** - Generate DALL-E AI images right in discord with `/dalle draw <prompt>`! It even supports multiple image qualities, multiple images, creating image variants, retrying, and saving images.  
-  
-- **DALL-E Image Prompt Optimization** - Given some text that you're trying to generate an image for, the bot will automatically optimize the text to be more DALL-E friendly! `/dalle optimize <prompt>`  
-  
-- **Edit Requests** - Ask GPT to edit a piece of text or code with a given instruction. `/gpt edit <instruction> <text>`  
-  
-- **DeepL Translations** - Translate text with DeepL. `/translate <text>`  
-  
-- **Redo Requests** - A simple button after the GPT3 response or DALL-E generation allows you to redo the initial prompt you asked. You can also redo conversation messages by just editing your message!  
-  
-- **Automatic AI-Based Server Moderation** - Moderate your server automatically with AI!  
-  
-- **Auto-retry on API errors** - Automatically resend failed requests to OpenAI's APIs!  
-  
-- Automatically re-send your prompt and update the response in place if you edit your original prompt!  
- 
-- ShareGPT integration to share your conversations
-- Tag your bot in chat and it'll respond!  
-- Async and fault tolerant, **can handle hundreds of users at once**, if the upstream API permits!  
-- Change and view model parameters such as temp, top_p, and etc directly within discord.   
-- Tracks token usage automatically  
-- Automatic pagination and discord support, the bot will automatically send very long message as multiple messages, and is able to send discord code blocks and emoji, gifs, etc.  
-- A low usage mode, use a command to automatically switch to a cheaper and faster model to conserve your tokens during times of peak usage.   
-- Prints debug to a channel of your choice, so you can view the raw response JSON  
-- Ability to specify a limit to how long a conversation can be with the bot, to conserve your tokens.  
-  
 # Commands  
   
 These commands are grouped, so each group has a prefix but you can easily tab complete the command without the prefix. For example, for `/gpt ask`, if you type `/ask` and press tab, it'll show up too.  
